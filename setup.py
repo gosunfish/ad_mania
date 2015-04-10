@@ -1,15 +1,21 @@
+#!/usr/bin/env python
+
 from setuptools import setup
+
+import ad_mania # to get __version__
 
 setup(
     name='ad_mania',
-    version = '0.1.0',
+    version = ad_mania.__version__,
     author='Carolyn Evans',
     author_email='gosunfish@comcast.net',
     packages = 'ad_mania' 'test',
     url='https://github.com/gosunfish/ad_mania',
-    license='MIT',
     description='Ad Server',
     long_description=open('README.rst').read(),
-    install_requires=[],)
+    license=open('LICENSE.txt').read(),
+    install_requires=[
+        'setuptools',
+        'pytest',],)
 
 

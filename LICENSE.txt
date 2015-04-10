@@ -1,0 +1,2 @@
+This license is for ad_mania package.
+Public Domain: do wit it what you will.
