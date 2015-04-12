@@ -16,6 +16,7 @@ setup(
     license=open('LICENSE.txt').read(),
     install_requires=[
         'setuptools',
-        'pytest',],)
+        'pytest',
+        'requests'],)
 
 

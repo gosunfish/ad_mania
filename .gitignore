@@ -17,3 +17,6 @@ config.yaml
 
 # Ignore test.py that indicates dev or prod env
 test.py
+
+# Ignore cj developer key
+cjDeveloperKey

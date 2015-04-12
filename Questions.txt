@@ -1,0 +1,6 @@
+How do I set mkproject to create 2.7.9 instead of 2.7.5?
+
+What goes in CHANGES.txt
+
+In MANIFEST.in, what is 'include'?
+
