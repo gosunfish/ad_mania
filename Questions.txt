@@ -1,6 +1,15 @@
 How do I set mkproject to create 2.7.9 instead of 2.7.5?
+I was pointing at the apple version of python. Also on my machine are the brew version and the one from python website
+that I installed with the installer. We downloaded pip from https://pip.pypa.io/en/latest/installing.html and ran
+get-pip.py from the downloaded folder. I then did a pip install --update on virtualenv and virtualenvwrapper.
+
 
 What goes in CHANGES.txt
 
 In MANIFEST.in, what is 'include'?
+
+When would you use setup.cfg?
+
+
+
 
