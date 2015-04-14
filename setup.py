@@ -9,13 +9,12 @@ setup(
     version = ad_mania.__version__,
     author='Carolyn Evans',
     author_email='gosunfish@comcast.net',
-    packages = 'ad_mania' 'test',
+    packages = ['ad_mania', 'ad_mania/test'],
     url='https://github.com/gosunfish/ad_mania',
     description='Ad Server',
     long_description=open('README.rst').read(),
     license=open('LICENSE.txt').read(),
     install_requires=[
-        'setuptools',
         'pytest',
         'requests'],)
 
