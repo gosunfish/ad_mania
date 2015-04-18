@@ -15,7 +15,7 @@ setup(
     long_description=open('README.rst').read(),
     license=open('LICENSE.txt').read(),
     install_requires=[
-        'pytest',
-        'requests'],)
+        'requests',
+        'uwsgi'],)
 
 

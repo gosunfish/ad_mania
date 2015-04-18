@@ -17,4 +17,13 @@ Introduce new, more interesting templates to the dynamic selection and rendering
 Support AB testing of templates, AB testing of advertisement positioning, etc.
 Take performance into consideration in the automated advertisement selection process.
 
+Technical notes:
+To start mysql locally, run this:
+sudo /Library/StartupItems/MySQLCOM/MySQLCOM start
+
+To connect to AWS mysql database:
+mysql -h dizzyninjal.ctbrqcon0iyi.us-east-1.rds.amazonaws.com -P 3306 -u sa -p rightside
+mysql -h web-sites.cqnknvzsrvqd.us-east-1.rds.amazonaws.com -P 3306 -u admin -p S1
+
+
 
