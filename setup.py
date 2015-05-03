@@ -2,15 +2,15 @@
 
 from setuptools import setup
 
-import app # to get __version__
+import run # to get __version__
 
 setup(
-    name='app',
-    version = app.__version__,
+    name='ad_mania.py',
+    version = run.__version__,
     author='Carolyn Evans',
     author_email='gosunfish@comcast.net',
-    packages = ['app', 'app/test'],
-    url='https://github.com/gosunfish/app',
+    packages = ['ad_mania.py', 'ad_mania.py/test'],
+    url='https://github.com/gosunfish/ad_mania.py',
     description='Ad Server',
     long_description=open('README.rst').read(),
     license=open('LICENSE.txt').read(),

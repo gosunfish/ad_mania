@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# ad_mania documentation build configuration file, created by
+# ad_mania.py documentation build configuration file, created by
 # sphinx-quickstart on Tue Apr 14 18:27:10 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -51,7 +51,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'ad_mania'
+project = u'ad_mania.py'
 copyright = u'2015, Carolyn Evans'
 author = u'Carolyn Evans'
 
@@ -227,7 +227,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'ad_mania.tex', u'ad\\_mania Documentation',
+  (master_doc, 'ad_mania.py.tex', u'ad\\_mania Documentation',
    u'Carolyn Evans', 'manual'),
 ]
 
@@ -257,7 +257,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'ad_mania', u'ad_mania Documentation',
+    (master_doc, 'ad_mania.py', u'ad_mania.py Documentation',
      [author], 1)
 ]
 
@@ -271,8 +271,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'ad_mania', u'ad_mania Documentation',
-   author, 'ad_mania', 'One line description of project.',
+  (master_doc, 'ad_mania.py', u'ad_mania.py Documentation',
+   author, 'ad_mania.py', 'One line description of project.',
    'Miscellaneous'),
 ]
 

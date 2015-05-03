@@ -22,8 +22,11 @@ To start mysql locally, run this:
 sudo /Library/StartupItems/MySQLCOM/MySQLCOM start
 
 To connect to AWS mysql database:
-mysql -h dizzyninjal.ctbrqcon0iyi.us-east-1.rds.amazonaws.com -P 3306 -u sa -p rightside
-mysql -h web-sites.cqnknvzsrvqd.us-east-1.rds.amazonaws.com -P 3306 -u admin -p S1
+mysql -h dizzyninjal.ctbrqcon0iyi.us-east-1.rds.amazonaws.com -P 3306 -u sa -p r.......
+mysql -h web-sites.cqnknvzsrvqd.us-east-1.rds.amazonaws.com -P 3306 -u admin -p S1......
+
+BUILD NOTES:
+sudo chown carolyn.evans: /var/log/admania.log
 
 
 

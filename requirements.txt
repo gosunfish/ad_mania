@@ -1,2 +1,4 @@
 requests
 uwsgi
+MySQL-python -- or not
+pip install --allow-external mysql-connector-python mysql-connector-python
