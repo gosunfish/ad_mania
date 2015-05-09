@@ -69,9 +69,6 @@ def database_update():
 
 if __name__ == '__main__':
     database_update()
-# import sys
-# print sys.path
-#         cnx = mysql.connector.connect(user=self.config['dwlogin'], database='AdMania')
-#         cursor = cnx.cursor()
+
 
 # http://dev.mysql.com/doc/connector-python/en/connector-python-example-connecting.html
