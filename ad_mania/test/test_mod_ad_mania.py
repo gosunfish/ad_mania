@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-test code for ad_mania.py module
+test code for ad_mania module
 
 can be run with py.test or nosetests
 """
