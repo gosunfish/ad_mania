@@ -5,8 +5,8 @@ import os.path
 
 logger = logging.getLogger(__name__)
 
-class Config(object):
 
+class Config(object):
 
     def __init__(self):
         config = dict()

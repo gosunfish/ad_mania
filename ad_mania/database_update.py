@@ -51,6 +51,8 @@ def database_update():
             mysql_args = (
                 link.find('link-id').text,
                 link.find('advertiser-id').text,
+                link.find('advertiser-name').text,
+                link.find('category').text,
                 'None' if link.find('promotion-start-date').text == None else link.find('promotion-start-date').text,
                 'None' if link.find('promotion-end-date').text == None else link.find('promotion-end-date').text,
                 height,
