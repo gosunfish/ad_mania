@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>{{ page_title }}</title>
+        <link rel="stylesheet" href="static/reset.css">
+        <link rel="stylesheet" href="static/main.css">
 
     </head>
     <body>
@@ -16,9 +18,10 @@
 
                 <div class="adWrap">
                     {% for entry in resultsSET %}
-                    <ad>
-                        {{entry[0]}}
-                    </ad>
+                    <div class="ad">
+                        {{entry|safe}}
+                    </div>
+                    {% endfor %}
                 </div>
             </div>
 

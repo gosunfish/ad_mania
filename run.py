@@ -1,5 +1,6 @@
-from ad_mania import app
 from config import Config
+from ad_mania import app
+
 import logging
 
 
@@ -8,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 def application():
     config = Config().config
-    app.config = config
+    app.config.update(config)
 
     return app
 

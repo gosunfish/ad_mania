@@ -16,6 +16,7 @@ setup(
     license=open('LICENSE.txt').read(),
     install_requires=[
         'requests',
-        'uwsgi'],)
+        'uwsgi'],
+        'flask',)
 
 
